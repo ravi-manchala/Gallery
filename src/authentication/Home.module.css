@@ -1,0 +1,56 @@
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #cc6666;
+    height: 80px;
+    padding: 0 30px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.nav h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+.nav ul{
+    display: flex;    
+} 
+
+.input input{
+    display: none;
+}
+
+.input label span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33px;
+    background: #e6e2d3;
+    height: 33px;
+    font-size: 33px;
+}
+
+.nav ul li{
+    width: 35px;
+    height: 35px;
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.output{
+    color: #aab7f2;
+    height: 70px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    /* padding-left: 42%; */
+    transform: translate(-50%);
+    z-index: 2;
+}

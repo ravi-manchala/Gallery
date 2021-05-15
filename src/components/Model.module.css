@@ -1,0 +1,89 @@
+.model{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 50%;
+    left:50%;    
+}
+
+.post{
+    position: relative;
+    /* width: 68%;
+    height: 70%; */
+    width: 950px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    background: #fff; 
+    transform: translate(-50%, -50%); 
+    border-radius: 10px;
+    position: relative;
+    object-fit: cover;
+}
+
+.post img{
+    width: 680px;
+    height: 500px;
+    object-fit: contain;
+    align-self: center;
+}
+
+.post i{
+    position: relative;
+    left: -8%;
+    top: 12%;
+    height: 32px;
+}
+
+.post i:hover{
+    color: brown;
+}
+
+.comment{
+    color: black;
+    position: relative;
+    right: 10px;
+    top: 40px;
+    left: -5%;
+    line-height: 0;
+}
+
+.comment div{
+    position: relative;
+    cursor: pointer;
+}
+
+
+
+
+
+/* ----------------------Present-start-------------------- */
+/* .model{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-top: 125px;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+
+
+.post img{
+    width: 700px;
+    height: 500px;
+    object-fit: contain;
+    background: white;
+    padding: 0 15px;
+} 
+
+.comment{
+    color: black;
+    background: white;
+    height: 485px;
+    padding: 15px 15px 0 0;
+    line-height: 0;
+}   */
+/* ------------------------Present-end------------------- */

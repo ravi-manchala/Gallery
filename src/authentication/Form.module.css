@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+/* .login{
+    background: url('../img/Artistic-Landscape-4K-Wallpaper-3840x2160.jpg');
+    height: 706px;  
+    width: 100%;
+    padding: 120px 60px;
+    box-sizing: border-box;
+}  */
+
+.login{
+    background: #b3cbff; 
+    height: 707px;
+    width: 100%;
+    padding: 120px 60px;
+    box-sizing: border-box;
+} 
+
+
+.loginContainer{
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #e6e6ff;    
+    padding: 0 40px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.loginContainer label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 580;
+    line-height: 3rem;
+}
+
+.loginContainer input{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    padding: 4px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+    background: #f4f4f4;
+}
+
+/* images */
+.img {
+    display: flex;
+    color:#b3cbff;
+}
+
+.img i{
+    padding-right: 8px;
+}
+
+/* .btnContainer{
+    width: 100%;
+    
+} */
+
+.btnContainer button{
+    background: #b3cbff;
+    width: 100px;
+    margin-left: 100px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+.btnContainer button:hover{
+    cursor: pointer;
+}
+
+.btnContainer p{
+    text-align: right;
+}
+
+.btnContainer p span{
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    cursor: pointer;
+}
+
+.btnContainer p span:hover{
+    text-decoration: underline;
+    transition: all 400ms ease-in-out;
+    color: tomato;
+}
+
+.errorMsg{
+    color: tomato;
+    font-size: 14px;
+}
